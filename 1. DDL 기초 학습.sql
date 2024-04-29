@@ -16,7 +16,6 @@ CREATE TABLE tbl_score (
     stu_num NUMBER(6) PRIMARY KEY
 );
 
-
 -- ALTER 문으로 제약조건 추가하기
 -- stu_num에 깜빡하고 primary key를 안걸어서 뒤늦게 설정할때
 
@@ -47,8 +46,6 @@ CREATE TABLE tb_emp_copy AS SELECT * FROM tb_emp;
 DROP TABLE tb_emp_copy;
 
 SELECT * FROM tb_emp_copy;
-
-
 
 -- TRUNCATE : 
 -- 구조는 남기고 안에 데이터만 삭제하여 
